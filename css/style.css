@@ -1,0 +1,323 @@
+body {
+  width: 100%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+#header {
+  width: 80%;
+  margin: auto;
+}
+
+#logo {
+  float: left;
+  width: 15%;
+}
+
+#logo a, #menu a, .breadcrumb a, footer a, #selector a {
+  text-decoration: none;
+}
+
+#menu a:hover, #selector a:hover {
+  color: green;
+  font-size: 15px;
+}
+
+.breadcrumb {
+  font-style: italic;
+}
+
+.breadcrumb a:after{
+  content: "/";
+  padding-left: 10px;
+}
+
+.breadcrumb li:last-child::after {
+  content: none;
+}
+
+#logo h1 {
+  color: #000;
+  font-size: 36px;
+}
+
+#logo h1, #menu a{
+  line-height: 100px;
+}
+
+#header, #logo, #menu, #logo img, #selector a {
+  height: 100px;
+}
+
+#logo, #menu {
+  border-right: 1px solid #EEE;
+}
+
+#menu {
+  width: 70%;
+  margin: auto;
+  float: right;
+}
+
+#menu li, .breadcrumb li, #selector li {
+  display: inline;
+}
+
+#menu a, #selector a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #444;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#page-title {
+  padding: 30px 0;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #EEE;
+  width: 100%;
+}
+
+#page-title h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.container {
+  font-size: 14px;
+  height: 65px;
+  line-height: 21px;
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative;
+  width: 80%;
+}
+
+#page-title span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #777;
+  font-size: 18px;
+}
+
+#page-title .breadcrumb {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 15px;
+  margin: -10px 0 0;
+  background-color: transparent;
+  padding: 0;
+  font-size: 12px;
+}
+
+#main-section-service .container_12 {
+  margin-left: 280px;
+}
+
+.container_12 {
+  width: 80%;
+  margin: 70px 200px;
+}
+
+.grid_4 img {
+  width: 320px;
+  height: 200px;
+  margin: 10px 0;
+}
+
+.grid_4 .subtitle {
+  display: block;
+    margin-top: 5px;
+    color: #444;
+    font-weight: 100;
+
+}
+
+section {
+  padding: 10px;
+}
+
+.big-image, #booking {
+  position: relative;
+  margin: auto;
+
+  display: block;
+}
+
+.big-image {
+  padding: 15px 0;
+  background-color: #F9F9F9;
+}
+
+img.aligncenter {
+  margin: auto;
+  display: block;
+  clear: both;
+  width: 70%;
+  height: 50%;
+}
+
+#booking {
+  padding: 10px 0;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.big-image .grid_4 {
+  width: 250px;
+  margin-left: 70px;
+}
+
+.service_1 img {
+  width: 250px;
+}
+
+.service_1 p{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.service_1_1 h3 {
+  width: 50%;
+  margin: auto;
+}
+
+#booking .title {
+  margin-bottom: 20px;
+}
+
+.grid_4 i {
+  float: left;
+  font-size: 36px;
+}
+
+.sub_grid {
+  float: right;
+  width: 200px;
+  margin: 0 0;
+}
+
+.sub_grid h3 {
+  font-size: 18px;
+}
+
+.sub_grid p {
+  font-size: 14px;
+}
+
+.service_1_1 {
+  margin-left: 60px;
+}
+
+.contact_for_help {
+  height: 70px;
+  padding-top: 20px;
+  background: rgb(26, 188, 156);
+}
+
+.contact_for_help p {
+  color: #fff;
+  font-size: 36px;
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #CCC;
+  height: 300px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer .container_12 {
+  width: 70%;
+  margin: auto;
+}
+
+footer a {
+  color: #CCC;
+}
+
+footer .grid_4 {
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+footer .col-1 {
+  float: left;
+}
+
+footer .col-2 {
+  float: right;
+  margin-left: 10px;
+}
+
+footer .row {
+  margin-top: 10px;
+  border-bottom: 1px solid #EEE;
+  font-size: 12px;
+}
+
+footer .row img {
+  width: 300px;
+  height: 50px;
+}
+
+footer .logo {
+  margin-left: 30px;
+  width: 100px;
+  height: 50px;
+}
+
+.footer_menu {
+  margin-top: 80px;
+}
+
+#copyrites {
+  height: 50px;
+  background-color: rgb(41, 41, 41);
+  color: rgb(192, 192, 192);
+}
+
+#copyrites p {
+  width: 30%;
+  margin: auto;
+}
+
+#selector {
+  width: 45%;
+  padding-top: 20px;
+  margin-left: 400px;
+  margin-top: 50px;
+  border: 2px solid #EEE;
+}
+
+#selector a{
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#main-section-portfolio .container_12 {
+  margin: 30px 200px;
+}
+
+#main-section-portfolio {
+  width: 90%;
+  margin: auto;
+}
