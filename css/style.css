@@ -343,7 +343,19 @@ footer .row p {
 }
 
 .footer_menu {
-  margin-top: 80px;
+  margin-top: 40px;
+}
+
+.social_share {
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.social_share img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 #copyrites {
