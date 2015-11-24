@@ -186,12 +186,19 @@ section {
 
 .aligncenter p {
   color: #fff;
-  padding: 10px;
-  font-size: 40px;
+  padding: 150px 30px;
+  font-size: 22px;
+  font-weight: 500;
+  text-shadow: 5px 5px 5px #04B404;
 }
 
 #booking {
   padding: 20px 30px;
+}
+
+#booking i {
+  margin-top: -10px;
+  font-size: 30px;
 }
 
 .heading {
@@ -204,7 +211,7 @@ section {
   margin-left: 70px;
 }
 
-.service_1 img {
+.service_1 img, .service_2 img {
   width: 250px;
 }
 
@@ -213,9 +220,27 @@ section {
   margin-left: 50px;
 }
 
+.service_1_1 .grid_4 {
+  margin-left: -50px;
+}
+
 .service_1_1 h3 {
-  width: 37%;
+  width: 85%;
   margin: auto;
+}
+
+.service_2_1 {
+  margin-top: 30px;
+}
+
+.service_2_1 .grid_4 {
+  margin-left: 50px;
+}
+
+.service_2_1 h3 {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 #booking .title {
@@ -313,6 +338,10 @@ footer .logo {
   height: 50px;
 }
 
+footer .row p {
+  font-size: 12px;
+}
+
 .footer_menu {
   margin-top: 80px;
 }
@@ -324,7 +353,7 @@ footer .logo {
 }
 
 #copyrites p {
-  width: 30%;
+  width: 40%;
   margin: auto;
   font-size: 100%;
 }
