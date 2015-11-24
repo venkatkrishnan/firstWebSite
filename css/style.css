@@ -1,8 +1,16 @@
+/*css for the tourism website*/
+
 body {
   width: 100%;
   margin: auto;
   font-family: 'Raleway', sans-serif;
 }
+
+p {
+  font-size: 15px;
+}
+
+/*service page starts here*/
 
 #header {
   width: 80%;
@@ -14,7 +22,7 @@ body {
   width: 15%;
 }
 
-#logo a, #menu a, .breadcrumb a, footer a, #selector a {
+#logo a, #menu a, .breadcrumb a, footer a, #selector a, .big-image a {
   text-decoration: none;
 }
 
@@ -71,6 +79,10 @@ body {
   letter-spacing: 1px;
 }
 
+/*menu ends here*/
+
+/*body properties*/
+
 #page-title {
   padding: 30px 0;
   background-color: #F5F5F5;
@@ -87,6 +99,10 @@ body {
   color: #333;
   font-size: 28px;
   text-transform: uppercase;
+}
+
+#page-title .breadcrumb-end {
+  margin-left: 10px;
 }
 
 .container {
@@ -120,6 +136,8 @@ body {
 
 #main-section-service .container_12 {
   margin-left: 280px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .container_12 {
@@ -148,7 +166,6 @@ section {
 .big-image, #booking {
   position: relative;
   margin: auto;
-
   display: block;
 }
 
@@ -157,16 +174,24 @@ section {
   background-color: #F9F9F9;
 }
 
-img.aligncenter {
+.aligncenter {
   margin: auto;
   display: block;
   clear: both;
-  width: 70%;
-  height: 50%;
+  width: 900px;
+  height: 450px;
+  background: url(../img/banner-001.jpg) no-repeat;
+  background-position: center;
+}
+
+.aligncenter p {
+  color: #fff;
+  padding: 10px;
+  font-size: 40px;
 }
 
 #booking {
-  padding: 10px 0;
+  padding: 20px 30px;
 }
 
 .heading {
@@ -189,7 +214,7 @@ img.aligncenter {
 }
 
 .service_1_1 h3 {
-  width: 50%;
+  width: 37%;
   margin: auto;
 }
 
@@ -203,13 +228,15 @@ img.aligncenter {
 }
 
 .sub_grid {
-  float: right;
+  float: left;
   width: 200px;
-  margin: 0 0;
+  margin: 0 30px;
 }
 
 .sub_grid h3 {
   font-size: 18px;
+  height: 30px;
+  width: 300px;
 }
 
 .sub_grid p {
@@ -233,6 +260,8 @@ img.aligncenter {
   margin: auto;
 }
 
+/*Common properties for footer*/
+
 footer {
   background-color: #333;
   color: #CCC;
@@ -246,6 +275,7 @@ footer ul {
 footer .container_12 {
   width: 70%;
   margin: auto;
+  margin-bottom: -7px;
 }
 
 footer a {
@@ -296,7 +326,12 @@ footer .logo {
 #copyrites p {
   width: 30%;
   margin: auto;
+  font-size: 100%;
 }
+
+/*Service page ends here including common properties*/
+
+/*Portfolio page */
 
 #selector {
   width: 45%;
@@ -320,4 +355,35 @@ footer .logo {
 #main-section-portfolio {
   width: 90%;
   margin: auto;
+}
+
+#main-section-portfolio .grid_4 h3, #main-section-portfolio .grid_4 h5 {
+  height: 15px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #000;
+}
+
+#main-section-portfolio a:hover {
+  color: blue;
+  font-size: 15.2px;
+}
+
+.default {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/*Index page css*/
+
+#indexpage {
+  margin: 350px 400px;
+}
+
+#indexpage a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #2EFE2E;
 }
